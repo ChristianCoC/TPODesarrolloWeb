@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Fotografía</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <h1>Horacio Coppola</h1>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#portafolio">Portfolio</a></li>
+                    <li id="openModal">Contacto</li>
+                </ul>
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Contacto</h2>
+                    <form>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>        
+        </nav>
+    </header>
+    <section class="hero" id="inicio">
+        <div class="container2">
+            <h2>Bienvenido a mi Portfolio</h2>
+            <p>Descubre mi trabajo en el mundo de la fotografía.</p>
+        </div>
+    </section>
+    <section class="portfolio" id="portafolio">
+        <div class="container3">
+            <h2>Mis Fotos Destacadas</h2>
+            <div class="gallery" id="gallery"></div>
+        </div>
+        <button id="load-more"><a href="#">Cargar Fotos</a></button>
+    </section>
+    <section class="mensaje">
+        <h2>¡Estoy disponible para nuevos proyectos!</h2>
+        <p>Si te gustó mi trabajo, no dudes en contactarme.</p>          
+    </section>
+    <footer class="footer">
+        <p>&copy; 2023 Horacio Coppola</p>
+        <div>
+            <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-twitter'></i></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
