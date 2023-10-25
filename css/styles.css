@@ -350,8 +350,9 @@ footer a {
   #exposiciones {
     height: 500px;
   }
-  .botones {
-    display: none;
+  #prevBoton,
+  #nextBoton {
+    font-size: 50px;
   }
 }
 @media (max-width: 768px) {
@@ -369,14 +370,13 @@ footer a {
     /* Restaura la altura automática para evitar el estiramiento en la vista móvil */
   }
 
-
-/* Contact section */
+  /* Contact section */
   .contact {
     text-align: center;
     padding: 60px 0;
   }
 
-/* Pie de página */
+  /* Pie de página */
   .footer {
     background-color: #333;
     color: #f0f0f0;
